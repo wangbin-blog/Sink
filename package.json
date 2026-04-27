@@ -7,6 +7,10 @@
   "engines": {
     "node": ">=22"
   },
+  "wrangler": {
+    "compatibility_date": "2025-01-01",
+    "compatibility_flags": ["nodejs_compat"]
+  },
   "scripts": {
     "dev": "nuxt dev --port 7465",
     "analyze": "nuxt analyze",
